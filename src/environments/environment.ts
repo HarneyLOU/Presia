@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig : {
+    apiKey: 'AIzaSyDx-JgrPZ09WpkU5x6wdOX8L1EqZbbeVNo',
+    authDomain: 'geomap-356be.firebaseapp.com',
+    databaseURL: 'https://geomap-356be.firebaseio.com',
+    projectId: 'geomap-356be',
+    storageBucket: 'geomap-356be.appspot.com',
+    messagingSenderId: '1098969348155',
+    appId: '1:1098969348155:web:bc596e25199362d611841e'
+  }
 };
 
 /*
